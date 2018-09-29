@@ -5,4 +5,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="home_page">Home Page</string>
+    <string name="view_previous_entries">View Previous Entries</string>
+    <string name="edit_entry">Edit Entry</string>
+    <string name="new_entry">New Entry</string>
+    <string name="add_new_entry">Add New Entry</string>
 </resources>
