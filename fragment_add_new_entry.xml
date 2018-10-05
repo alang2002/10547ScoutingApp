@@ -327,7 +327,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="-"
-                        android:id="@+id/button"
+                        android:id="@+id/newentry_depot_minus_button"
                         android:layout_weight="0.35"
                         android:textSize="25dp" />
 
@@ -336,7 +336,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="+"
-                        android:id="@+id/button2"
+                        android:id="@+id/newentry_depot_plus_button"
                         android:layout_weight="0.35"
                         android:textSize="25dp" />
                 </LinearLayout>
@@ -383,16 +383,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="-"
-                        android:id="@+id/button3"
                         android:layout_weight="0.24"
-                        android:textSize="25dp" />
+                        android:textSize="25dp"
+                        android:id="@+id/newentry_minus_lander_button" />
 
                     <Button
                         style="?android:attr/buttonStyleSmall"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="+"
-                        android:id="@+id/button4"
+                        android:id="@+id/newentry_plus_lander_button"
                         android:layout_weight="0.24"
                         android:textSize="25dp" />
 
