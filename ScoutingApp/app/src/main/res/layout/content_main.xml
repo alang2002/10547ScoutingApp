@@ -13,14 +13,4 @@
     tools:context="com.example.sir_acolyte.scoutingapp.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/add_new_entry"
-        android:id="@+id/add_entry_button"
-        android:layout_marginBottom="43dp"
-        android:layout_gravity="center"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
 </RelativeLayout>

@@ -10,9 +10,10 @@ import android.view.ViewGroup;
 public class NewEntryFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
-        View rootView = inflater.inflate(R.layout.content_main, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_add_new_entry, container, false);
 
-        //Insert text fields or other elements here
+        //Initialize view elements
+
 
         return rootView;
     }
