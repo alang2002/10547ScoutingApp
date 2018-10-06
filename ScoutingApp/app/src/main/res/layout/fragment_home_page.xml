@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:id="@+id/home_page"
     android:weightSum="1"
     android:background="#232222">
 
@@ -52,7 +53,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView2"
             android:layout_gravity="center_horizontal"
-            android:text="Welcome to the Mortal Combots&apos; scouting app. Press new entry to begin, or use the side bar to view previous entries or edit one."
+            android:text="Welcome to the Mortal Combots&apos; scouting app. You can use the side bar to navigate your way through the app."
             android:textColor="#dc790e"
             android:textSize="30dp" />
 
@@ -61,15 +62,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.48" />
-
-        <Button
-            android:layout_width="176dp"
-            android:layout_height="wrap_content"
-            android:text="New Entry"
-            android:id="@+id/button"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0.03"
-            android:background="#dc790e" />
 
     </LinearLayout>
 </LinearLayout>

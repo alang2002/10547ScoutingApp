@@ -285,7 +285,8 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="TeleOp"
             android:id="@+id/textView3"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
 
         <Space
             android:layout_width="match_parent"
@@ -319,13 +320,14 @@
                     android:layout_weight="0.18" />
 
                 <TextView
-                    android:layout_width="32dp"
+                    android:layout_width="62dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="0"
                     android:id="@+id/newentry_depot_value"
                     android:layout_gravity="center_horizontal"
-                    android:textSize="30dp" />
+                    android:textSize="30dp"
+                    android:textColor="#ffffff" />
 
                 <LinearLayout
                     android:orientation="horizontal"
@@ -385,13 +387,14 @@
                     android:layout_weight="0.24" />
 
                 <TextView
-                    android:layout_width="35dp"
+                    android:layout_width="65dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="0"
                     android:id="@+id/newentry_lander_value"
                     android:layout_gravity="center_horizontal"
-                    android:textSize="30dp" />
+                    android:textSize="30dp"
+                    android:textColor="#ffffff" />
 
                 <LinearLayout
                     android:orientation="horizontal"
@@ -441,7 +444,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="End Game"
         android:id="@+id/textView5"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -511,8 +515,33 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="10dp"
         android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Total Score:"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/newentry_total_score"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+    </LinearLayout>
 
     <Button
         android:layout_width="136dp"
