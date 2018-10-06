@@ -38,13 +38,15 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Team Name"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/editentry_editText_team_name"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
 
         </LinearLayout>
     </LinearLayout>
@@ -64,7 +66,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Team Number"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -72,7 +75,8 @@
                 android:inputType="number"
                 android:ems="10"
                 android:id="@+id/editentry_editText_team_number"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
         </LinearLayout>
     </LinearLayout>
 
@@ -92,7 +96,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Game Number (optional)"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
 
             <EditText
                 android:layout_width="83dp"
@@ -100,7 +105,8 @@
                 android:inputType="number"
                 android:ems="10"
                 android:id="@+id/editentry_editText_gamenumber"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
         </LinearLayout>
 
         <LinearLayout
@@ -114,7 +120,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Alliance Color"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
 
             <CheckBox
                 android:layout_width="77dp"
@@ -123,7 +130,8 @@
                 android:id="@+id/editentry_red_checkbox"
                 android:layout_gravity="center_horizontal"
                 android:checked="false"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textColor="#ff0000" />
 
             <CheckBox
                 android:layout_width="77dp"
@@ -132,7 +140,8 @@
                 android:layout_gravity="center_horizontal"
                 android:checked="false"
                 android:id="@+id/editentry_blue_checkbox"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textColor="#0095ff" />
 
         </LinearLayout>
     </LinearLayout>
@@ -174,7 +183,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Dropped from Lander?"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
 
             <Switch
                 android:layout_width="wrap_content"
@@ -196,7 +206,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Claimed Depot?"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
 
             <Switch
                 android:layout_width="wrap_content"
@@ -224,7 +235,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Parked in Crater?"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
 
             <Switch
                 android:layout_width="wrap_content"
@@ -246,7 +258,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Knocked Away Gold Mineral?"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
 
             <Switch
                 android:layout_width="wrap_content"
@@ -292,7 +305,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Minerals Scored (Depot)"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
 
             <Space
                 android:layout_width="match_parent"
@@ -307,7 +321,8 @@
                 android:text="0"
                 android:id="@+id/textView2"
                 android:layout_gravity="center_horizontal"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                android:textColor="#ffffff" />
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -328,7 +343,9 @@
                     android:text="-"
                     android:id="@+id/editentry_depot_minus_button"
                     android:layout_weight="0.35"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:background="#d10000"
+                    android:textColor="#000000" />
 
                 <Button
                     style="?android:attr/buttonStyleSmall"
@@ -337,7 +354,9 @@
                     android:text="+"
                     android:id="@+id/editentry_depot_plus_button"
                     android:layout_weight="0.35"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:background="#59ff00"
+                    android:textColor="#565656" />
             </LinearLayout>
 
         </LinearLayout>
@@ -353,7 +372,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Minerals Scored (Lander)"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
 
             <Space
                 android:layout_width="match_parent"
@@ -368,7 +388,8 @@
                 android:text="0"
                 android:id="@+id/textView4"
                 android:layout_gravity="center_horizontal"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                android:textColor="#ffffff" />
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -384,7 +405,9 @@
                     android:text="-"
                     android:layout_weight="0.24"
                     android:textSize="25dp"
-                    android:id="@+id/editentry_minus_lander_button" />
+                    android:id="@+id/editentry_minus_lander_button"
+                    android:background="#d10000"
+                    android:textColor="#000000" />
 
                 <Button
                     style="?android:attr/buttonStyleSmall"
@@ -393,7 +416,9 @@
                     android:text="+"
                     android:id="@+id/editentry_plus_lander_button"
                     android:layout_weight="0.24"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:background="#59ff00"
+                    android:textColor="#565656" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -435,7 +460,8 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Hanged from Lander?"
                 android:id="@+id/textView6"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
 
             <Switch
                 android:layout_width="wrap_content"
@@ -457,7 +483,8 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Parked in Crater"
                 android:id="@+id/textView7"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#dc790e" />
 
             <CheckBox
                 android:layout_width="wrap_content"
@@ -466,7 +493,8 @@
                 android:id="@+id/editentry_partial_checkbox"
                 android:layout_gravity="center_horizontal"
                 android:checked="false"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textColor="#dc790e" />
 
             <CheckBox
                 android:layout_width="90dp"
@@ -474,7 +502,8 @@
                 android:text="Full"
                 android:id="@+id/editentry_full_checkbox"
                 android:layout_gravity="center_horizontal"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textColor="#dc790e" />
         </LinearLayout>
     </LinearLayout>
 
