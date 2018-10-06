@@ -323,7 +323,7 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="0"
-                    android:id="@+id/textView2"
+                    android:id="@+id/newentry_depot_value"
                     android:layout_gravity="center_horizontal"
                     android:textSize="30dp" />
 
@@ -389,7 +389,7 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="0"
-                    android:id="@+id/textView4"
+                    android:id="@+id/newentry_lander_value"
                     android:layout_gravity="center_horizontal"
                     android:textSize="30dp" />
 
