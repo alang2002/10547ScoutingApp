@@ -10,4 +10,5 @@
     <string name="edit_entry">Edit Entry</string>
     <string name="new_entry">New Entry</string>
     <string name="add_new_entry">Add New Entry</string>
+    <string name="entries_content">Entries Content</string>
 </resources>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical" android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:weightSum="1">
+        android:layout_height="fill_parent"
+        android:weightSum="1"
+        android:background="#232222">
 
         <Space
             android:layout_width="match_parent"
@@ -44,7 +45,7 @@
                     android:textColor="#dc790e" />
 
                 <EditText
-                    android:layout_width="match_parent"
+                    android:layout_width="471dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/newentry_editText_team_name"
                     android:layout_gravity="center_horizontal"
@@ -72,7 +73,7 @@
                     android:textColor="#dc790e" />
 
                 <EditText
-                    android:layout_width="match_parent"
+                    android:layout_width="482dp"
                     android:layout_height="wrap_content"
                     android:inputType="number"
                     android:ems="10"
@@ -97,7 +98,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Game Number (optional)"
+                    android:text="Game Number"
                     android:layout_gravity="center_horizontal"
                     android:textColor="#dc790e" />
 
@@ -125,25 +126,31 @@
                     android:layout_gravity="center_horizontal"
                     android:textColor="#dc790e" />
 
-                <CheckBox
-                    android:layout_width="77dp"
-                    android:layout_height="wrap_content"
-                    android:text="Red"
-                    android:id="@+id/newentry_red_checkbox"
+                <RadioGroup
+                    android:layout_width="146dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
                     android:layout_gravity="center_horizontal"
-                    android:checked="false"
-                    android:textSize="20sp"
-                    android:textColor="#ff0000" />
+                    android:weightSum="1">
 
-                <CheckBox
-                    android:layout_width="77dp"
-                    android:layout_height="wrap_content"
-                    android:text="Blue"
-                    android:layout_gravity="center_horizontal"
-                    android:checked="false"
-                    android:id="@+id/newentry_blue_checkbox"
-                    android:textSize="20sp"
-                    android:textColor="#0095ff" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Red"
+                        android:id="@+id/newentry_red_radiobutton"
+                        android:checked="false"
+                        android:layout_weight="0.90"
+                        android:textColor="#fc2525" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Blue"
+                        android:id="@+id/newentry_blue_radiobutton"
+                        android:checked="false"
+                        android:layout_weight="0.94"
+                        android:textColor="#0095ff" />
+                </RadioGroup>
 
             </LinearLayout>
         </LinearLayout>
@@ -491,24 +498,31 @@
                 android:layout_gravity="center_horizontal"
                 android:textColor="#dc790e" />
 
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Partial"
-                android:id="@+id/newentry_partial_checkbox"
+            <RadioGroup
+                android:layout_width="146dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
                 android:layout_gravity="center_horizontal"
-                android:checked="false"
-                android:textSize="20dp"
-                android:textColor="#dc790e" />
+                android:weightSum="1">
 
-            <CheckBox
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
-                android:text="Full"
-                android:id="@+id/newentry_full_checkbox"
-                android:layout_gravity="center_horizontal"
-                android:textSize="20dp"
-                android:textColor="#dc790e" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Partial"
+                    android:id="@+id/newentry_partial_radiobutton"
+                    android:checked="false"
+                    android:layout_weight="0.90"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Full"
+                    android:id="@+id/newentry_full_radiobutton"
+                    android:checked="false"
+                    android:layout_weight="0.94"
+                    android:textColor="#ffffff" />
+            </RadioGroup>
         </LinearLayout>
     </LinearLayout>
 

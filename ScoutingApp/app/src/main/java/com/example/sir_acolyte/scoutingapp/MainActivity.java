@@ -1,5 +1,6 @@
 package com.example.sir_acolyte.scoutingapp;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -9,6 +10,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -21,6 +23,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        Log.d("ScoutingApp", DBAdapter.DBHandler.CREATE_ENTRIES_TABLE);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -66,8 +69,6 @@ public class MainActivity extends AppCompatActivity
             contentFragment = new HomePageFragment();
         } else if (id == R.id.view_previous_entries) {
             contentFragment = new ViewEntriesFragment();
-        } else if (id == R.id.edit_entry_page) {
-            contentFragment = new EditEntriesFragment();
         } else if (id == R.id.new_entry_page) {
             contentFragment = new NewEntryFragment();
         }
